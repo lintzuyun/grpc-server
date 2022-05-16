@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package person;
 
-option go_package = "/";
+option go_package = "github.com/lintzuyun/grpc-server/greet/proto";
 
 service PersonService {
     rpc GetPersonByID (GetPersonByIDRequest) returns (PersonResponse){}
